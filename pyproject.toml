@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kivi-browser"
+version = "0.1.0"
+description = "A CLI UI tool that helps navigating remote Key-Value style storages"
+authors = ["Apxdono <apxdono+github@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+npyscreen = "^4.10.5"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+kivi = "kivi_browser.kivi_app:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
